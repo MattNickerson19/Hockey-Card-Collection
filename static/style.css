@@ -1,0 +1,39 @@
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flexbox;
+    background-color:rgb(177, 162, 28);
+}
+
+.nav {
+    background-color:rgb(177, 162, 28);
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+  }
+  .nav a {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+  }
+  .nav a:hover {
+    background-color: rgb(53, 51, 51);
+    color: rgb(255, 255, 255);
+  }
+  .nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  body{
+  background-color: rgb(177, 162, 28);
+  }

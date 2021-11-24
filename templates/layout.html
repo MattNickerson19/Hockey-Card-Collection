@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOCKEY CARD COLLECTION</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <h1>HOCKEY CARD COLLECTION</h1>
+    <nav>
+    <div class="nav">
+        <a id="view" href="">VIEW COLLECTION</a>
+        <a id="add" href="">ADD CARD</a>
+        <a id= "remove" href="">DELETE CARD</a>
+      </div>
+</nav>
+</head>
+<body>
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
