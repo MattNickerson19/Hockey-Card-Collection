@@ -1,12 +1,8 @@
 from flask import Flask, render_template, request, session
-import sqlite3
-import object
-from contextlib import closing
 import database
 
 app = Flask(__name__)
 database.connect()
-
 
 @app.route("/")
 def homePage():
