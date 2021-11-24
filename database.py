@@ -7,7 +7,7 @@ conn = None
 def connect():
     global conn
     if not conn:
-        conn = sqlite3.connect("Cards.db")
+        conn = sqlite3.connect("Cards.db", check_same_thread=False)
         conn.row_factory = sqlite3.Row
 
 def close():
@@ -41,11 +41,3 @@ def viewCards():
             card = object.Card(result["card_image"], result["player_name"], result["player_position"], result["player_team"])
             cards.append(card)
     return cards
-
-def main():
-    connect()
-
-    close()
-
-if __name__ == "__main__":
-    main()

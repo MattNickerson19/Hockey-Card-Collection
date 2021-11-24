@@ -9,6 +9,18 @@ h1 {
     display: flexbox;
     background-color:rgb(177, 162, 28);
 }
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    display: flexbox;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
 
 .nav {
     background-color:rgb(177, 162, 28);
@@ -35,5 +47,23 @@ h1 {
     color: white;
   }
   body{
-  background-color: rgb(177, 162, 28);
+    background-color: rgb(177, 162, 28);
+  }
+
+  li img {
+    display: block;
+    width: 15%;
+    float: left;
+    padding: 15px;
+    border-right: solid
+  }
+  ul li {
+  display: inline-block;
+  border-style: solid
+}
+  ul {
+  text-align: center
+  }
+  ul h2 {
+  padding: 9px
   }

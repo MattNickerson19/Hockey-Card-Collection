@@ -7,13 +7,15 @@
     <h1>HOCKEY CARD COLLECTION</h1>
     <nav>
     <div class="nav">
-        <a id="view" href="">VIEW COLLECTION</a>
-        <a id="add" href="">ADD CARD</a>
-        <a id= "remove" href="">DELETE CARD</a>
+        <a id="home" href="{{ url_for('homePage') }}">HOME</a>
+        <a id="view" href="{{ url_for('view') }}">VIEW COLLECTION</a>
+        <a id="add" href="{{ url_for('add') }}">ADD CARD</a>
+        <a id= "remove" href="{{ url_for('delete') }}">DELETE CARD</a>
       </div>
 </nav>
 </head>
 <body>
+    <h2>{{ headline }}</h2>
     {% block body %}
     {% endblock %}
 </body>
