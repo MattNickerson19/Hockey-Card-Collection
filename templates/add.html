@@ -1,1 +1,13 @@
 {% extends "layout.html" %}
+
+{% block body %}
+    <form class="form" action = "{{ url_for('added') }}" method="post">
+        <input type="file" id="image" name="image" placeholder="Select Card Image">
+        <input type="text" name="name" placeholder="Enter Player Name">
+        <input type="text" name="position" placeholder="Enter Player Position">
+        <input type="text" name="team" placeholder="Enter Player Team">
+        <button>Submit</button>
+    </form>
+
+
+{% endblock %}
