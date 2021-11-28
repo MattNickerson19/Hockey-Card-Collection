@@ -67,3 +67,12 @@ h2 {
   ul h2 {
   padding: 9px
   }
+  .form{
+  text-align: center
+  }
+  .form2{
+  text-align: center
+  }
+  span {
+	color: red;
+}

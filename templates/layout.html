@@ -11,12 +11,18 @@
         <a id="view" href="{{ url_for('view') }}">VIEW COLLECTION</a>
         <a id="add" href="{{ url_for('add') }}">ADD CARD</a>
         <a id= "remove" href="{{ url_for('delete') }}">DELETE CARD</a>
-      </div>
+    </div>
+    <script src="{{ url_for('static', filename='jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='validation.js') }}"></script>
+
 </nav>
 </head>
 <body>
     <h2>{{ headline }}</h2>
     {% block body %}
+
+
     {% endblock %}
+
 </body>
 </html>
