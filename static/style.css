@@ -52,7 +52,8 @@ h2 {
 
   li img {
     display: block;
-    width: 15%;
+    width: 20%;
+    height: 25%;
     float: left;
     padding: 15px;
     border-right: solid
