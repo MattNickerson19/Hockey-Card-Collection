@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".form").submit( event => {
+    $("#form1").submit( event => {
 
         let isValid = true;
 
@@ -45,11 +45,10 @@ $(document).ready(function() {
             }
     });
 
-    $(".form2").submit( event => {
+    $("#form2").submit( event => {
 
         let isValid = true;
 
-        
         const name = $("#name").val().trim();
         if (name == "") {
             $("#name").next().text("This field is required.");

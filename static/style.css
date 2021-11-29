@@ -52,8 +52,8 @@ h2 {
 
   li img {
     display: block;
-    width: 20%;
-    height: 25%;
+    width: 17em;
+    height: 27em;
     float: left;
     padding: 15px;
     border-right: solid
@@ -68,10 +68,10 @@ h2 {
   ul h2 {
   padding: 9px
   }
-  .form{
+  #form1 {
   text-align: center
   }
-  .form2{
+  #form2{
   text-align: center
   }
   span {
