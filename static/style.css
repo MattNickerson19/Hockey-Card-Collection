@@ -7,7 +7,7 @@ h1 {
     text-align: center;
     justify-content: center;
     display: flexbox;
-    background-color:rgb(177, 162, 28);
+
 }
 h2 {
     font-family:'Times New Roman', Times, serif;
@@ -22,45 +22,15 @@ h2 {
     width: 25%;
   }
 
-.nav {
-    background-color:rgb(177, 162, 28);
-    overflow: hidden;
-    list-style: none;
-    text-align: center;
-  }
-  .nav a {
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: inline-block;
-  }
-  .nav a:hover {
-    background-color: rgb(53, 51, 51);
-    color: rgb(255, 255, 255);
-  }
-  .nav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  body{
-    background-color: rgb(177, 162, 28);
-  }
-
   li img {
     display: block;
     width: 17em;
     height: 27em;
     float: left;
     padding: 15px;
-    border-right: solid
   }
   ul li {
   display: inline-block;
-  border-style: solid
 }
   ul {
   text-align: center
